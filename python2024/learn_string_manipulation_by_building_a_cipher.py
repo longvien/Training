@@ -1,9 +1,18 @@
-text = 'Hello World'
+text = 'Hello Zaira'
 shift = 3
-alphabet = 'abcdefghijklmnopqrstuvwxyz'
 
-for char in text.lower():
-    index = alphabet.find(char)
-    print(char, index)
-    new_index = index + shift
-    new_char = alphabet[new_index]
+def caesar(message, offset):
+    alphabet = 'abcdefghijklmnopqrstuvwxyz'
+    encrypted_text = ''
+
+    for char in text.lower():
+        if char == ' ':
+            encrypted_text += char
+        else:
+            index = alphabet.find(char)
+            new_index = (index + shift) % len(alphabet)
+            encrypted_text += alphabet[new_index]
+    print('plain text:', text)
+    print('encrypted text:', encrypted_text)
+
+caesar()
