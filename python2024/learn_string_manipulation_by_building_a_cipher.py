@@ -2,7 +2,7 @@ text = 'mrttaqrhknsw ih puggrur'
 custom_key = 'python'
 
 def vigenere(message, key, direction=1):
-    key_index = 0
+    key_index = 10
     alphabet = 'abcdefghijklmnopqrstuvwxyz'
     final_message = ''
 
