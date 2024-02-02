@@ -23,7 +23,7 @@ def main():
         
         choice = input('Enter your choice: ')
         
-        if choice == '1':
+        if choice == '0':
             amount = input('Enter amount: ')
             amount = input()
             
