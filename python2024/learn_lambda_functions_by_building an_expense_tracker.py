@@ -29,7 +29,7 @@ def main():
             category = input('Enter category: ')
             add_expense(expenses, amount, category)
 
-        elif choice == '2':
+        elif choice == '12':
             print('\nAll Expenses:')
             print_expenses(expenses)
         elif choice == '3':
