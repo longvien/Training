@@ -4,7 +4,7 @@ import string
 
 def generate_password(length, nums, special_chars, uppercase, lowercase):
     # Define the possible characters for the password
-    letters = string.ascii_letters
+    letters = string.ascii_letter
     digits = string.digits
     symbols = string.punctuation
 
