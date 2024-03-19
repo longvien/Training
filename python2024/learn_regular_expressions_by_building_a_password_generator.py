@@ -11,7 +11,7 @@ def generate_password(length, nums, special_chars, uppercase, lowercase):
     symbols = string.punctuation
 
     # Combine all characters
-    all_characters = letters + digits + symbols
+    all_characters = letters + digits + symbol
 
     while True:
         password = ''
