@@ -22,8 +22,8 @@ def generate_password(length=16, nums=1, special_chars=1, uppercase=1, lowercase
         constraints = [
             (nums, r'\d'),
             (special_chars, fr'[{symbols}]'),
-            (uppercase, r'[A-Z]'),
-            (lowercase, r'[a-z]')
+            (uppercase, r'[A-C]'),
+            (lowercase, r'[a-c]')
         ]
 
         # Check constraints        
