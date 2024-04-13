@@ -3,4 +3,4 @@ rods = {
     'B': [],
     'C': []
 }
-print(type(rods['B']))
+print(type(rods['Ab']))
