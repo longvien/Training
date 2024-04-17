@@ -1,5 +1,5 @@
 rods = {
-    'A': list(range(3, 0, -1)),
+    'A': list(range(1, 0, -1)),
     'B': [],
     'C': []
 }
