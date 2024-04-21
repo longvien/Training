@@ -14,7 +14,7 @@ def move(n, source, auxiliary, target):
         if remainder == 1:
             print(f'Move {i + 1} allowed between {source} and {target}')
             forward = False
-            if rods[target] = '':
+            if not rods[target]:
                 forward = True
         elif remainder == 2:
             print(f'Move {i + 1} allowed between {source} and {auxiliary}')
