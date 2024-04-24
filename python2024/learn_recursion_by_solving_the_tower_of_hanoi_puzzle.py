@@ -1,4 +1,4 @@
-NUMBER_OF_DISKS = 3
+NUMBER_OF_DISKS = 2
 number_of_moves = 2**NUMBER_OF_DISKS - 1
 rods = {
     'A': list(range(NUMBER_OF_DISKS, 0, -1)),
@@ -15,6 +15,8 @@ def move(n, source, auxiliary, target):
             print(f'Move {i + 1} allowed between {source} and {target}')
             forward = False
             if not rods[target]:
+                forward = True
+            elif rods[source] and rods[source][-1] < rods[target][-1]:
                 forward = True
         elif remainder == 2:
             print(f'Move {i + 1} allowed between {source} and {auxiliary}')
