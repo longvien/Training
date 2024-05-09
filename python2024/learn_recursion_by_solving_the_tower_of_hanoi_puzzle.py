@@ -22,7 +22,7 @@ def make_allowed_move(rod1, rod2):
     # display our progress
     print(rods)
 
-def move(n, source, auxiliary, target):
+def make_allowed_move(n, source, auxiliary, target):
     # display starting configuration
     print(rods)
     for i in range(number_of_moves):
@@ -38,4 +38,4 @@ def move(n, source, auxiliary, target):
             
 
 # initiate call from source A to target C with auxiliary B
-move(NUMBER_OF_DISKS, 'A', 'B', 'C')
+make_allowed_move(NUMBER_OF_DISKS, 'A', 'B', 'C')
