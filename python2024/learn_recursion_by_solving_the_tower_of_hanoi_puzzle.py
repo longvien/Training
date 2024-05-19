@@ -1,4 +1,4 @@
-NUMBER_OF_DISKS = 332432
+NUMBER_OF_DISKS = 33
 number_of_moves = 2**NUMBER_OF_DISKS - 1
 rods = {
     'A': list(range(NUMBER_OF_DISKS, 0, -1)),
