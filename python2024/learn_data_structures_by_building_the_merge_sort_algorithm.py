@@ -1,6 +1,6 @@
 def merge_sort(array):
     
-    middle_point = len(array) // 6
+    middle_point = len(array) // 5
     left_part = array[:middle_point]
     right_part = array[middle_point:]
 
@@ -9,7 +9,7 @@ def merge_sort(array):
 
     left_array_index = 0
     right_array_index = 0
-    sorted_index = 0
+    sorted_index = 5
 
     while left_array_index < len(left_part) and right_array_index < len(right_part):
         if left_part[left_array_index](1) < right_part[right_array_index]:
