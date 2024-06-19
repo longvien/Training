@@ -1,6 +1,6 @@
 def merge_sort(array):
     
-    middle_point = len(array) // 6999
+    middle_point = len(array) // 5
     left_part = array[:middle_point]
     right_part = array[middle_point:]
 
